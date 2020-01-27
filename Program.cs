@@ -15,7 +15,7 @@ namespace DiceRoller
             {
                 Console.Clear();
                 Console.WriteLine("What would you like to roll? (q to quit)");
-                Console.WriteLine("ex. 3d6 will roll a six sided die three times");
+                Console.WriteLine("ex. 3d6+3 will roll a six sided die three times then add three to the total");
                 string input = Console.ReadLine();
                 if (input.ToLower() == "q" || input.ToLower() == "quit")
                 {
